@@ -44,7 +44,7 @@ npm install --save @material/button
 
 ```html
 <button class="mdc-button">
-  Flat button
+  <div class="mdc-button__inner">Flat button</div>
 </button>
 ```
 
@@ -52,7 +52,7 @@ npm install --save @material/button
 
 ```html
 <button class="mdc-button mdc-button--accent">
-  Colored button
+  <div class="mdc-button__inner">Colored button</div>
 </button>
 ```
 
@@ -60,7 +60,7 @@ npm install --save @material/button
 
 ```html
 <button class="mdc-button mdc-button--raised">
-  Raised button
+  <div class="mdc-button__inner">Raised button</div>
 </button>
 ```
 
@@ -68,7 +68,7 @@ npm install --save @material/button
 
 ```html
 <button class="mdc-button mdc-button--raised" disabled>
-  Raised disabled button
+  <div class="mdc-button__inner">Raised disabled button</div>
 </button>
 ```
 
@@ -85,7 +85,7 @@ You can also do this declaratively when using the [material-components-web](../m
 
 ```html
 <button class="mdc-button" data-mdc-auto-init="MDCRipple">
-  Flat button
+  <div class="mdc-button__inner">Flat button</div>
 </button>
 ```
 
@@ -99,7 +99,7 @@ The block class is `mdc-button`. This defines the top-level button element.
 
 ### Element
 
-The button component has no inner elements.
+The button text is wrapped by `mdc-button__inner`.
 
 ### Modifier
 
